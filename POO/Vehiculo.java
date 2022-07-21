@@ -1,6 +1,8 @@
 package POO;
 
 public class Vehiculo {
+
+    // Atributos
     private int num_registro, cantidad_ruedas;
     private String marca, modelo;
 

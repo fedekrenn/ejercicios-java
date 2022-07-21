@@ -2,9 +2,11 @@ package POO;
 
 public class Camion extends Vehiculo{
     
+    // Atributos
     private int cant_ejes;
     private boolean acoplado;
 
+    // Constructor
     public Camion(int num_registro, String marca, String modelo, int cantidad_ruedas, int cant_ejes, boolean acoplado) {
         super(num_registro, marca, modelo, cantidad_ruedas);
         this.cant_ejes = cant_ejes;
@@ -34,9 +36,4 @@ public class Camion extends Vehiculo{
     public void descargar() {
         System.out.println("Hemos dejado la carga...");
     }
-    
-
-    
-    
-    
 }

@@ -1,8 +1,11 @@
 package POO;
 
 public class Moto extends Vehiculo {
+
+    // Atributos
     private int cilindrada;
 
+    // Constructor
     public Moto(int num_registro, String marca, String modelo, int cantidad_ruedas, int cilindrada) {
         super(num_registro, marca, modelo, cantidad_ruedas);
         this.cilindrada = cilindrada;
@@ -17,6 +20,4 @@ public class Moto extends Vehiculo {
     public void setCilindrada(int cilindrada) {
         this.cilindrada = cilindrada;
     }
-
-    
 }
